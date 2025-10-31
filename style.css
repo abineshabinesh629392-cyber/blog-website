@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.container {
+  background: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#commentsSection {
+  margin-top: 25px;
+}
+
+#commentsList {
+  margin-bottom: 15px;
+}
+
+.commentBox {
+  background-color: #f1f5f9;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commentText {
+  word-wrap: break-word;
+  flex: 1;
+}
+
+.deleteBtn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.deleteBtn:hover {
+  background-color: #dc2626;
+}
+
+#commentInput {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+#postBtn {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#postBtn:hover {
+  background-color: #1d4ed8;
+}
